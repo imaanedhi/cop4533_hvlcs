@@ -89,7 +89,7 @@ This generates:
 Input format is:
 
 * integer K
-* K lines of character-value pairs
+* K lines of character value pairs
 * string A
 * string B
 
@@ -158,4 +158,4 @@ HVLCS(A, B, values):
 
 ### Runtime
 
-The algorithm fills a table of size (n+1) × (m+1), and each entry is computed in constant time. Therefore, the time complexity is O(nm). The space complexity is also O(nm).
+The algorithm fills a table of size (n+1)(m+1), and each entry is computed in constant time. Therefore, the time complexity is O(nm). The space complexity is also O(nm).
